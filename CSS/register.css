@@ -1,0 +1,114 @@
+/* 引入头部 底部 */
+#header iframe{
+	width: 100%;
+	height: 160px;
+}
+#footer iframe{
+	width: 100%;
+	height: 420px;
+	margin-top: 50px;
+}
+
+/* footer   iframe 
+/* 会员注册字体设置 */
+p.member{
+	font-size: 20px;
+	color: #999;
+	padding:15px 0 16px 0;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 36px;
+}
+/* 总宽度设置 */
+div.w-1000{
+	width: 1000px;
+	height: 567px;
+	margin: 0 auto;
+}
+/* 将容器变为弹性布局，将项目两端对齐 */
+div.login-sec{
+	display: flex;
+	justify-content: space-between;
+}
+div.login-left{
+	position: relative;
+}
+/* 图片上会员注册字体设置 */
+div.login-left .login{
+	width: 153px;
+	height: 48px;
+	line-height: 48px;
+	border: 1px solid #64A131;
+	position: absolute;
+	bottom: 21px;
+	left: 175px;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 18px;
+	background: #fff;
+}
+div.login-left .login a{
+	color: #64A131;
+}
+div.login-right ul li{
+	width: 400px;
+	height: 40px;
+	margin-bottom: 20px;
+	margin-right:-20px;
+	display: flex;
+	line-height: 40px;
+	font-size: 16px;
+}
+div.text-1,div.text-2,div.wj span{
+	color: #999;
+
+}
+/* 列表总宽高设置 */
+div.login-right ul{
+	width: 380px;
+	height: 368px;
+}
+/* 文本框大小设置 */
+div.login-right ul li input{
+	width: 260px;
+	height: 40px;
+	
+}
+/* 文本框前提示设置 */
+div.login-right ul li div.text-2{
+	width: 96px;
+	height: 40px;
+	text-align: right;
+}
+div.mar{
+	width: 342px;
+	height: 40px;
+	padding-left: 30px;
+}
+/* 登录 注册 字体设置 */
+div.reg{
+	margin-left: 100px;
+}
+div.rgt,div.log{
+	width: 115px;
+	height: 38px;
+	background: #64a131;
+	border-radius: 4px;
+	border: 1px solid #64a131;
+	line-height: 38px;
+	text-align: center;
+	margin-left: 110px;
+}
+div.rgt{
+	background: #fff;
+	margin-left: 30px;
+}
+div.rgt a{
+	color: #64a131;
+}
+div.log a{
+	color: #fff;
+}
+/* ul的上边距设置 */
+div.login-right{
+	margin-top: 20px;
+}

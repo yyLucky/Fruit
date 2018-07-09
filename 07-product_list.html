@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天天果园|商品详情页</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/product_list_detail.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="container clear">
+        <!--面包屑导航-->
+        <div class="bread">
+            <a href="01-index.html">首页&gt;</a>
+            <a href="javascript:;">新鲜水果&gt;</a>
+            <span>越南红心火龙果</span>
+        </div>
+        <!--左侧图片区-->
+        <div id="myfouse" style="overflow: hidden"><!--class="clear"-->
+            <ul class="dianul">
+                <li>
+                    <img src="img/detail/1.jpg" data-target="img/detail/1-1.jpg"/>
+                </li>
+                <li>
+                    <img src="img/detail/2.jpg" data-target="img/detail/2-1.jpg"/>
+                </li>
+                <li>
+                    <img src="img/detail/3.jpg" data-target="img/detail/3-1.jpg"/>
+                </li>
+                <li>
+                    <img src="img/detail/4.jpg" data-target="img/detail/4-1.jpg"/>
+                </li>
+            </ul>
+            <ul class="tuul">
+                <li>
+                    <img src="img/detail/1-1.jpg" class="my-big"/>
+                </li>
+                <!--<li>-->
+                <!--<img src="img/detail/1-180x180-5-DSC89CAF.jpg" alt=""/>-->
+                <!--</li>-->
+                <!--<li>-->
+                <!--<img src="img/detail/1-180x180-5-Y3AURD72.jpg" alt=""/>-->
+                <!--</li>-->
+                <!--<li>-->
+                <!--<img src="img/detail/1-180x180-5-S1P68YXW.jpg" alt=""/>-->
+                <!--</li>-->
+            </ul>
+        </div>
+        <!--右侧详情区-->
+        <div class="intr clear">
+            <div class="f-title clear">
+                <img src="img/detail/2017-09-16_145814.png" alt="" class="gj"/>
+                <div class="x-title">
+                    <h2 class="h2">越南红心火龙果</h2>
+                    <p>每天都要很健康</p>
+                </div>
+            </div>
+            <div class="price-info clear">
+                <div class="f-price clear">
+                    <h5>果园价</h5>
+                    <span>&yen;49.90</span>
+                </div>
+                <!--<div></div>-->
+                <!--规格-->
+                <div class="f-spec clear">
+                    <h5>规格</h5>
+                    <span class="jin">2斤</span>
+                </div>
+                <!--配送-->
+                <div class="f-ps clear">
+                    <h5>配送至</h5>
+                    <div>上海v</div>
+                    <span class="huo">有货</span>
+                </div>
+                <!--数量-->
+                <div class="f-num clear">
+                    <h5>数量</h5>
+                    <div id="show-list">
+                        <span id="sp1">-</span>
+                        <input type="text" value="1"/>
+                        <span id="sp2">+</span>
+                    </div>
+                </div>
+                <!--立即购买-->
+                <div class="f-buy clear">
+                    <div>
+                        <a href="09-cart.html">立即购买</a>
+                    </div>
+                    <div>
+                        <a href="09-cart.html">加入购物车</a>
+                    </div>
+                </div>
+                <div class="f-pull clear">
+                    <!--甜度-->
+                    <div class="tian clear">
+                        <h5>甜度</h5>
+                        <span><img src="img/circle-2.png" alt=""/></span>
+                    </div>
+                    <!--产地-->
+                    <div class="oirgin clear">
+                        <h5>产地</h5>
+                        <span>越南</span>
+                    </div>
+                    <!--存储-->
+                    <div class="storage clear">
+                        <h5>存储方法</h5>
+                        <span>0°冷藏</span>
+                    </div>
+                    <!--备注-->
+                    <div class="remarks clear">
+                        <h5>备注</h5>
+                        <span>单重400g以上</span>
+                    </div>
+                    <!--编号-->
+                    <div class="fid clear">
+                        <h5>商品编号</h5>
+                        <span>2170220101</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部图片评论区-->
+    <div class="pro-intr clear">
+        <div class="p-intr clear">
+            <div>产品简介</div>
+            <div>顾客评论(0)</div>
+            <a href="">加入购物车</a>
+        </div>
+        <div class="prop-tab clear">
+            <div class="cd clear">
+               <div>产地</div>
+                <div>越南</div>
+            </div>
+            <div class="cd">
+                <div>营养元素</div>
+                <div>维生素C，花青素，胡萝卜素</div>
+            </div>
+            <div class="cd">
+                <div>储藏方法</div>
+                <div>0°冷藏</div>
+            </div>
+            <div class="cd">
+                <div>水果甜度</div>
+                <div>3星</div>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <img src="img/detail/14887675739460.jpg" alt=""/>
+            </li>
+            <li>
+                <img src="img/detail/14887675765227.jpg" alt=""/>
+            </li>
+            <li>
+                <img src="img/detail/14887675786568.jpg" alt=""/>
+            </li>
+        </ul>
+    </div>
+    <div id="footer"></div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/product_list.js"></script>
+    <script src="js/search.js"></script>
+    <script>
+        $("#header").load("01-header.html");
+        $("#footer").load("03-footer.html");
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+
+div#header{
+    margin-bottom: 50px;
+}
+div.d-container{
+    width: 70%;
+    margin:0 auto;
+}
+/*��������*/
+div.aid{
+    width: 15%;
+    min-height: 300px;
+    border: 1px solid #ddd;
+    /*margin-left: 18%;*/
+    text-align: center;
+}
+/*���崹ֱ����*/
+ul.cente li{
+    line-height: 36px;
+}
+/*/!*���hoverʱ*!/*/
+ul.cente li:hover{
+    background-color: #ddd;
+}
+/*����������������*/
+ul.cente li:nth-child(1){
+    font-size: 16px;
+    font-weight: bold;
+}
+/*������ɫ*/
+ul.cente li a{
+    color: #000;
+}
+/*�±߿�*/
+ul.cente li:nth-child(1),.l4,
+    li:nth-child(7),li:nth-child(10){
+    border-bottom: 1px solid #ddd;
+}
+
+ul.cente li.active a{
+    color: #fff;
+}
+
+ .content.active{
+     display:block;
+}
+ .cente .active a{
+    display: block;
+    background: #64A131;
+}
+/*��˾�����*/
+div.content{
+    width: 75%;
+    min-height: 300px;
+    border: 1px solid #ddd;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    display:none;
+}
+div.way{
+    width:100%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    background-color: #eee;
+    border-bottom:1px solid #ddd;
+}
+div.img-con{
+    margin:15px;
+}
+div.aid,div.content{
+    float: left;
+}
+div.img-con{
+    width:90%;
+}
+div.img-con p img{
+    width:100%;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天天果园|登录</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/reg_header.css">
+</head>
+<body>
+	<div id="header">
+	</div>
+	<div class="w-1000">
+		<p class="member">会员登录</p>
+		<div class="login-sec">
+			<div class="login-left">
+				<img src="img/huiyuan.jpg">
+				<div class="login">
+					<a href="06-register.html">会员注册&gt;</a>
+				</div>
+			</div>
+			<div class="login-right">
+				<ul>
+					<li class="log-number clear">
+						<div class="text-1">用户名</div>
+						<div class="phone">
+							<input type="text" id="uname">
+						</div>
+					</li>
+					<li class="log-pwd clear">
+						<div class="text-2" >密码</div>
+						<div class="pwd">
+						<input type="password" placeholder="请输入6-20位号码字符" id="upwd">
+						</div>
+					</li>
+					<li class="oper">
+						<div class="wj">
+							<input type="checkbox">
+							<span>记住密码</span>
+						</div>
+						<div class="reg">
+							<a href="javascript:;">忘记密码?</a>
+							<a href="javascript:;">快捷登录</a>
+						</div>
+					</li>
+					<li>
+						<div class="log"  id="d1">
+							<a href="javascript:;">登录</a>
+							<!--<button id="btn1">登录</button>-->
+						</div>
+						<div class="rgt">
+							<!--<button>会员注册</button>-->
+							<a href="06-register.html">会员注册</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/login.js"></script>
+	<script>
+		$("#header").load("reg-header.html");
+		$("#footer").load("03-footer.html");
+	</script>
+</body>
+</html>

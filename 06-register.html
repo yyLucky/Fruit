@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天天果园|注册</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/register.css">
+	<link rel="stylesheet" href="css/reg_header.css">
+</head>
+<body>
+	<div id="header">
+	</div>
+	<div class="w-1000">
+		<p class="member">会员登录</p>
+		<div class="login-sec">
+			<div class="login-left">
+				<img src="img/huiyuan.jpg">
+				<div class="login">
+					<a href="05-login.html">会员登录&gt;</a>
+				</div>
+			</div>
+			<div class="login-right">
+				<ul>
+					<li class="log-number clear">
+						<div class="text-2">姓名</div>
+						<div class="mar">
+							<input type="text" placeholder="请输入4-20位数字或字母" id="uname" required>
+						</div>
+					</li>
+					<li class="log-pwd clear">
+						<div class="text-2">密码</div>
+						<div class="mar">
+						<input type="password" placeholder="请输入6-20位号码字符" id="upwd" required>
+						</div>
+					</li>
+					<li class="log-pwd">
+						<div class="text-2">确认密码</div>
+						<div class="mar">
+						<input type="password" placeholder="请输入6-20位号码字符" id="upwds" required>
+						</div>
+					</li>
+					<li class="log-pwd">
+						<span></span>
+						<!--<div class="text-2">验证码</div>-->
+						<!--<div class="mar">-->
+						<!--<input type="text">-->
+						<!--</div>-->
+					</li>
+					<li class="log-pwd">
+						<!--<div class="text-2">手机验证码</div>-->
+						<!--<div class="mar">-->
+						<!--<input type="text" placeholder="发送验证码">-->
+						<!--</div>-->
+					</li>
+					<li>
+						<div class="log">
+							<a href="05-login.html">登录</a>
+						</div>
+						<div class="rgt"  id="reg1">
+							<a href="javascript:;">会员注册</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+	</div>
+	<script src="js/jquery-1.11.3.js"></script>
+	<!--<script src="js/jquery.js"></script>-->
+	<script src="js/reg.js"></script>
+	<!--<script src="js/jquery.validate.js"></script>-->
+	<script>
+		$("#header").load("reg-header.html");
+		$("#footer").load("03-footer.html");
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+/*底部四张图片*/
+#line ul.list-inline{
+	margin:10px auto;
+	width: 1280px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 10px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+}
+#line ul li{
+	width: 320px;
+	height: 60px;
+	/* line-height: 60px; */
+	/* padding-right: 5px; */
+	text-align: center;
+}
+#line ul li.icon-1{
+	width: 240px;
+	height: 60px;
+	background-image: url(../img/icon.png);
+}
+#line ul li.icon-2{
+	width: 240px;
+	height: 60px;
+	background-position: 0 -60px;
+	background-image: url(../img/icon.png);
+}
+#line ul li.icon-3{
+	width: 240px;
+	height: 60px;
+	background-position: 0 -120px;
+	background-image: url(../img/icon.png);
+}
+#line ul li.icon-4{
+	width: 240px;
+	height: 60px;
+	background-position: 0 -180px;
+	background-image: url(../img/icon.png);
+}
+/*左部分浮动*/
+.boorbar{
+	float:left;
+}
+/*底部左*/
+div.logo{
+	width: 315px;
+	height: 180px;
+	margin-left:30px;
+}
+div.logo span,.tel{
+	padding-left: 70px;
+	font-size: 20px;
+	color: #999;
+}
+/*底部二维码*/
+ul.qr li{
+	width: 130px;
+	text-align: center;
+	color: #999;
+	float: left;
+	margin-left: 50px;
+}
+ul.qr{
+	float: left;
+	margin: 20px 40px;
+}
+/*最右边列表*/
+ul.list-item li a{
+	display: block;
+	color: #999;
+	line-height: 30px;
+}
+ul.list-item li{
+	float: left;
+	margin: 20px 20px;
+}
+ul.list-item li h4{
+	font-weight: 500;
+	line-height: 40px;
+	color: inherit;
+	font-size: 16px;
+}
+
+/*版权*/
+img.gf{
+	width: 34px;
+	height: 42px;
+}
+div.copy{
+	text-align: center;
+}
+/*版权字体颜色*/
+div.copy p{
+	color:  #64A131;
+	margin: 5px auto;
+}
+div.copy p:first-child{
+	color: #999;
+}
+#main{
+	width:100%;
+}
+div.auto{
+	width: 1280px;
+	margin:0 auto;
+}

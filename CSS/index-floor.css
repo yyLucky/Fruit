@@ -1,0 +1,68 @@
+/* 楼层标题图片设置 */
+.floor>img{
+	margin: 5px 0;
+}
+/*中部广告*/
+#middle ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+#middle{
+	width: 1280px;
+	margin: 10px auto;
+}
+#middle hr{
+	margin-top: 50px;
+	color: #ccc;
+}
+/*将容器变为弹性布局*/
+.floor ul{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+/*li里所有点击为小手*/
+.floor ul li{
+	cursor: pointer;
+}
+/*图片尺寸*/
+.floor ul li div a img{
+	width: 248px;
+}
+/*过度*/
+.floor ul li div a img:hover{
+	transform:scale(1.1,1.1);
+	transition-duration: 1s;
+}
+/*图片下名称价格容器的宽高*/
+.s-info{
+	width:248px;
+	height:48px;
+	margin: 5px 0;
+}
+/*图片下价格的设置*/
+.s-info div.s-unit{
+	margin:3px 0;
+	color:#999;
+}
+/*楼层的下外边距*/
+.floor{
+	width:1290px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.floor hr{
+	margin-top: 50px;
+}
+#imgs-list{
+	width: 248px;
+	height: 248px;
+	box-sizing: border-box;
+	border:1px  solid transparent;
+}
+/*设置禁止图片溢出*/
+div.pic{
+	overflow:hidden;
+}

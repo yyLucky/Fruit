@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>天天果园|购物车</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/reg_header.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <div id="header"></div>
+    <div class="cart">
+        <div class="g-cart">
+            <div class="cart-img"></div>
+            <p>我的购物车</p>
+            <a href="01-index.html">继续逛逛></a>
+        </div>
+        <div class="c-spec">
+            <span>商品</span>
+            <span>规格</span>
+            <span>单价(元)</span>
+            <span>数量</span>
+            <span>原价(元)</span>
+            <span>操作</span>
+        </div>
+        <div class="c-kk">
+            <p>购物车中还没有商品,<a href="01-index.html">继续逛逛</a>吧！</p>
+        </div>
+        <p class="c-interest">你可能感兴趣的商品</p>
+        <div class="c-k"></div>
+    </div>
+    <div id="footer"></div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script>
+        $("#header").load("reg-header.html");
+        $("#footer").load("03-footer.html");
+    </script>
+</body>
+</html>

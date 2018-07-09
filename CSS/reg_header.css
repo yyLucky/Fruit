@@ -1,0 +1,49 @@
+/*最顶部*/
+div .top a{
+	color:#64A131; 
+}
+div.top{
+	font-size: 12px;
+	height: 30px;
+	background-color: #eee;
+	line-height: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+div.top ul{
+	display: flex;
+}
+div.top ul li{
+	margin-left: 10px;
+}
+div.top ul li a{
+	color: #999;
+}
+.main{
+	overflow: hidden;
+}
+/*头部*/
+#logo{
+	float: left;
+}
+
+/*右侧搜索框*/
+#seek input{
+	outline: none;
+	border: 0px;
+	width: 120px;
+	margin:40px 50px 0 100px;
+}
+#seek hr{
+	width: 200px;
+	color:#eee;
+	margin-right:90px;
+}
+div.a{
+	margin-left:990px;
+}
+div.a a{
+	margin-left: 5px;
+}
+
